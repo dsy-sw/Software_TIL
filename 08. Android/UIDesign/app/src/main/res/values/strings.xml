@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">UIDesign</string>
+    <string name="user_id">user ID</string>
+    <string name="input_user_id">Input user ID</string>
+</resources>

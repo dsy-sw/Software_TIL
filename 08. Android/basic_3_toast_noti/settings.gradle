@@ -1,0 +1,4 @@
+include ':app', ':MyLib'
+rootProject.name = "basic_3_toast_noti"
+
+project(':MyLib').projectDir = new File('C:\\iot_workspace\\Android\\MyLibBase\\MyLib')

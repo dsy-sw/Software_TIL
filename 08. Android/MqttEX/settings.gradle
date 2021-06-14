@@ -1,0 +1,5 @@
+include ':app', ':MyLib'
+rootProject.name = "MqttEX"
+
+project(':MyLib').projectDir = new File('C:\\iot_workspace\\Android\\MyLibBase\\MyLib')
+

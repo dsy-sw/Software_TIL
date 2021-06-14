@@ -1,0 +1,49 @@
+<head>
+    <style>
+        tr:first-child {
+            /* 첫번째 태그의 텍스트 색상 */
+            color: blue;
+            font-size: 20px;
+        }
+        h4:last-child {
+            /* 마지막 태그의 텍스트 색상 */
+            color: red;
+            font-size: 20px;
+        }
+        tr:nth-child(2n+1) {
+            /* 홀수 태그 */
+            background-color: green;
+        }
+        h4:nth-last-child(2n) {
+            /* 짝수 태그 */
+            background-color: yellow;
+        }
+        td:hover {
+            background-color: darkcyan;
+        }
+    </style>
+</head>
+<body>
+    <table style="width:90%">
+        <tr>
+            <td>오늘의 날씨</td>
+            <td>기상청</td>
+        </tr>
+        <tr>
+            <td>오늘의 운세</td>
+            <td>철학관</td>
+        </tr>
+        <tr>
+            <td>시험 공지</td>
+            <td>멀캠</td>
+        </tr>
+        <tr>
+            <td>휴강 공지</td>
+            <td>강시</td>
+        </tr>
+        <tr>
+            <td>내일의 날씨</td>
+            <td>기상청</td>
+        </tr>
+    </table>
+</body>

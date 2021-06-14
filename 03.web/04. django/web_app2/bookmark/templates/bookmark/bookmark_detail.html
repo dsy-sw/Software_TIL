@@ -1,0 +1,15 @@
+{% extends "base.html" %}
+
+{% block title %}bookmark_detail.html{% endblock %}
+
+{% block content %}
+
+    <h1>{{ object.title }}</h1>
+
+    <ul>
+        <li>URL: <a href="{{ object.url }}">{{ object.url }}</a></li>
+    </ul>
+
+    <a href="{% url 'bookmark:index' %}">목록으로</a>
+
+{% endblock %}

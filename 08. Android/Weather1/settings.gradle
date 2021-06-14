@@ -1,0 +1,4 @@
+include ':app', ':MyLib'
+rootProject.name = "Weater"
+
+project(':MyLib').projectDir = new File('C:\\iot_workspace\\Android\\MyLibBase\\MyLib')
